@@ -1,4 +1,4 @@
-# PTD Bias-Correction Analysis
+# DDML code for my project at l'ENSAE
 
 Self-contained folder for the Proxy-based Treatment Debiasing (PTD) pipeline
 (Gordon et al. 2026), applied to the mines → agriculture RDD project.
@@ -6,7 +6,7 @@ Self-contained folder for the Proxy-based Treatment Debiasing (PTD) pipeline
 ## Structure
 
 ```
-ptd_analysis/
+ddml/
 ├── run_all.R                      # entry point — runs all three scripts in order
 ├── code/
 │   ├── helpers_remote_sensing.R   # ptd_debias(), adversarial_debias(), bootstrap_*()
@@ -26,7 +26,7 @@ ptd_analysis/
 
 ## How to run
 
-**Working directory must be `ptd_analysis/`** for all relative paths to resolve.
+**Working directory must be `ddml/`** for all relative paths to resolve.
 
 ### From RStudio
 Open `run_all.R` and source it — it sets the working directory automatically.
