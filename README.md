@@ -26,16 +26,10 @@ ddml/
 
 ## How to run
 
-**Working directory must be `ddml/`** for all relative paths to resolve.
+**Working directory must be `ddml/`** for all relative paths to resolve. Use R project to have functioning relative paths!
 
 ### From RStudio
 Open `run_all.R` and source it — it sets the working directory automatically.
-
-### From the terminal
-```zsh
-cd /Users/thomasbombarde/Documents/R/minesriverstyields/minesriversyields/ptd_analysis
-Rscript run_all.R
-```
 
 ### Individual scripts
 ```r
